@@ -1,0 +1,7 @@
+.name #firstname {
+    animation: fadeIn 1s ease-out;
+  }
+
+.name #lastname {
+    animation: bounce 2s ease-out;
+}

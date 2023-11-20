@@ -19,6 +19,17 @@
       opacity: 1;
     }
   }
+
+  @keyframes slideOut {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
   
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {

@@ -1,0 +1,44 @@
+/* Design1 */
+.design1 .redA,
+.design1 .redB,
+.design1 .redC,
+.design1 .blackA,
+.design1 .blackB,
+.design1 .blackC {
+    width: 2.6%;
+    height: 1080px;
+}
+
+
+
+/* navIcon*/
+.navIcon .top {
+    width: 41px;
+    height: 19px;
+    border-radius: 10px;
+}
+.navIcon .bottom {
+    width: 77px;
+    height: 15px;
+    border-radius: 32px;
+}
+
+/* navButton*/
+.navButton .contact,
+.navButton .projects,
+.navButton .aboutMe,
+.navButton .resume{
+    display: flex;
+    justify-content: center;
+    width: 10vw;
+    height: 6vh;
+    border: 2px solid;
+    border-radius: 30px;
+    align-items: center;
+}
+.navButton .gap {
+    width: 2.6%;
+    height: 20px;
+}
+
+

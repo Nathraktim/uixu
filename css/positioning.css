@@ -1,5 +1,112 @@
-.name {
-    position: relative;
-    margin-left: 60%;
-    margin-top: 50%;
+/* Design1 */
+.design1 .redA,
+.design1 .redB,
+.design1 .redC,
+.design1 .blackA,
+.design1 .blackB,
+.design1 .blackC {
+    position: absolute;
+}
+
+.design1 .redA {
+    left: 88.125%;
+    margin-top: -10px;
+}
+
+.design1 .redB {
+    left: 86.302083%;
+    margin-top: 1070px;
+}
+
+.design1 .redC {
+    left: 83.697916%;
+    margin-top: 2150px;
+}
+
+.design1 .blackA {
+    left: 83.4375%;
+    margin-top: -10px;
+}
+
+.design1 .blackB {
+    left: 81.614583%;
+    margin-top: 1070px;
+}
+
+.design1 .blackC {
+    left: 79.010416%;
+    margin-top: 2150px;
+}
+
+
+/* navIcon*/
+.navIcon .top,
+.navIcon .bottom {
+    position: absolute;
+    left: 7%;
+}
+
+.navIcon .top {
+    position: fixed;
+    margin-top: 100px;
+}
+
+.navIcon .bottom {
+    position: fixed;
+    margin-top: 131px;
+}
+
+
+.navButton {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 27%;
+    margin-right: 27%;
+
+    
+}
+
+.navButton .contact,
+.navButton .projects,
+.navButton .aboutMe,
+.navButton .resume,
+.navButton .gap {
+    margin-top: 67vh;
+    transition: margin-top 0.3s ease; /* Transition for margin-top only */
+}
+
+.navButton .contact:hover,
+.navButton .projects:hover,
+.navButton .aboutMe:hover,
+.navButton .resume:hover {
+    margin-top: 65vh; /* Adjust the reduced margin when hovering */
+    animation: slideIn 0.5s ease forwards;
+}
+
+.design2 {
+    
+    margin-top: 600px;
+    position:fixed;
+    top: -40%;
+    left: 57.65%;
+    z-index: -1;
+    pointer-events: none;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.text1 {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+}
+
+.text1 p {
+    text-align: center;
+}
+
+.text1 b {
+    font-weight: bold;
 }

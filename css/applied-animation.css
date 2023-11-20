@@ -1,7 +1,23 @@
-.name #firstname {
-    animation: fadeIn 1s ease-out;
+.navIcon .top,
+.navIcon .bottom {
+    animation: fadeIn 2s ease-out;
   }
 
-.name #lastname {
-    animation: bounce 2s ease-out;
+.design1 .redA,
+.design1 .redB,
+.design1 .redC,
+.design1 .blackA,
+.design1 .blackB,
+.design1 .blackC {
+  animation: fadeIn 4s ease-out;
+}
+.navButton .contact,
+.navButton .projects,
+.navButton .aboutMe,
+.navButton .resume {
+  animation: fadeIn 1s ease-out;
+}
+
+.design2 {
+  animation: slideOut 2s ease-out;
 }

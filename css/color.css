@@ -1,0 +1,51 @@
+ /* Design1 */
+ .design1 .redA,
+ .design1 .redB,
+ .design1 .redC {
+    background-color: #AE3838;
+    opacity: 53%;
+}
+
+.design1 .blackA,
+.design1 .blackB,
+.design1 .blackC {
+    background-color: #000000;
+}
+
+
+/* navIcon*/
+.navIcon .top {
+    background-color: #B95252;
+    box-shadow: inset 0px -4px 6px 0 rgba(0,0,0,0.16);
+}
+.navIcon .bottom {
+    background-color: #B95252;
+    box-shadow: inset 0px -3px 6px 0 rgba(0,0,0,0.16);
+}
+
+/* navButton*/
+.navButton .contact,
+.navButton .projects,
+.navButton .aboutMe,
+.navButton .resume {
+    border-color: #AE3838;
+    box-shadow: inset 0px 3px 6px 0 rgba(0,0,0,0.16);
+}
+
+.navButton .contact a,
+.navButton .projects a,
+.navButton .aboutMe a,
+.navButton .resume a {
+    color: #000000;
+}
+
+.design2{
+    filter: blur(7px);
+}
+
+.text1 {
+    color: #000000;
+}
+.text1 b{
+    color: #C13131;
+}

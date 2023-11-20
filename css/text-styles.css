@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Playfair Display Regular';
+    src: url('fonts/PlayfairDisplayRegular.ttf') format('truetype');
+}
+
+.navButton .contact a,
+.navButton .projects a,
+.navButton .aboutMe a,
+.navButton .resume a {
+    font-family:'Playfair Display Regular' ;
+    text-decoration: none !important;
+    font-size: 1.5vi;
+    font-size-adjust: inherit;
+}
